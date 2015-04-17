@@ -1,0 +1,15 @@
+{
+  "name":"Kanban",
+  "manifest_version":2,
+  "version": "1.0",
+  "description": "My First Chrome Extension",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions":[
+    "https://api.github.com/",
+    "https://api.trello.com/",
+    "https://github-oauth-proxy.jit.su/"
+  ]
+}
